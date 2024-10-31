@@ -4,7 +4,7 @@ A powerful tool to extract and convert light novels into EPUB format with suppor
 
 ## Important Note
 
-**Current Compatibility**: This tool has been specifically developed and tested for a certain popular light novel website that rhymes with "novel full" 😉. While it works flawlessly there, using it elsewhere will require modifications to the content selection logic.
+**Current Compatibility**: This tool was developed overnight while reading on a certain website where "lite" reading material exists in this "novel world" of ours 😉. World domination wasn't the goal - just wanted to enjoy some novels offline with my fancy TTS setup.
 
 **Need help?** You have options:
 
