@@ -75,11 +75,13 @@ This is NOT a tool for commercial purposes or content redistribution. <span styl
 3. Run the installation script:
 
 For Windows users:
+
 ```bash
 run.bat
 ```
 
 For Linux/Mac users:
+
 ```bash
 chmod +x run.sh
 ./run.sh
@@ -90,16 +92,19 @@ chmod +x run.sh
 The script can be run in two modes:
 
 Interactive Mode:
+
 ```bash
 python LightNovelScraper.py
 ```
 
 Command-line Mode:
+
 ```bash
 python LightNovelScraper.py [options]
 ```
 
 Command-line Options:
+
 - `--url`: Base URL for the light novel website
 - `--novel-id`: Novel ID from the URL
 - `--start`: First chapter number to download
@@ -115,6 +120,7 @@ Command-line Options:
 - `--include-notes`: Include chapter notes in output
 
 Example:
+
 ```bash
 python LightNovelScraper.py --url "https://example.com/novel/" --novel-id "novel-name-123" --start 1 --end 10 --title "My Novel" --cover-url "https://example.com/cover.jpg" --author "Author Name" --simple-chapters
 ```
@@ -124,11 +130,13 @@ python LightNovelScraper.py --url "https://example.com/novel/" --novel-id "novel
 To create a standalone executable:
 
 For Windows:
+
 ```bash
 build_exe.bat
 ```
 
 For Linux/Mac:
+
 ```bash
 chmod +x build_exe.sh
 ./build_exe.sh
@@ -138,17 +146,22 @@ chmod +x build_exe.sh
 
 ```
 project/
-├── LightNovelScraper.py     # Main script
-├── requirements.txt         # Python dependencies
-├── setup.py                # Package setup file
-├── build_exe.bat          # Windows build script
-├── build_exe.sh           # Linux/Mac build script
-├── run.bat                # Windows run script
-├── run.sh                 # Linux/Mac run script
-├── LightNovelScraper.spec # PyInstaller spec file
-└── README.md              # Documentation
-├── build/                 # Build output directory
-└── dist/                  # Distribution output directory
+  ├── LightNovelScraper.py          # Main scraper script
+  ├── lightnovelScraper_Simple.py   # Simplified version of scraper
+  ├── requirements.txt              # Python dependencies
+  ├── setup.py                      # Package setup file
+  ├── build_exe.bat                 # Windows executable build script
+  ├── build_exe.sh                  # Linux/Mac executable build script
+  ├── build.bat                     # Windows build script
+  ├── build.sh                      # Linux/Mac build script
+  ├── run.bat                       # Windows run script
+  ├── run.sh                        # Linux/Mac run script
+  ├── icon.ico                      # Application icon
+  ├── LightNovelScraper.spec        # PyInstaller spec file
+  ├── README.md                     # Documentation
+  ├── .gitignore                    # Git ignore file
+  ├── build/                        # Build output directory
+  └── dist/                         # Distribution output directory
 ```
 
 ## Advanced Features
