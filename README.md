@@ -38,7 +38,9 @@ If you want to adapt this for a different site, you'll need to modify these part
 python LightNovelScraper.py --debug  # See all processing details
 ```
 
-**Please Note**: This is a hobby project created for legitimate use cases, such as:
+## Second Important Note
+
+ This is a hobby project created for legitimate use cases, such as:
 
 - Using advanced Text-to-Speech solutions for personal audio enjoyment
 
