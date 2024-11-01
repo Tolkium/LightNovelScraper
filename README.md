@@ -4,30 +4,14 @@ A powerful tool to extract and convert light novels into EPUB format with suppor
 
 ## Important Note
 
-**Current Compatibility**: This tool has been specifically developed and tested for one certain website where "lite" reading material exists in this "novel world" of ours 😉. While it works flawlessly there, using it elsewhere will in most cases require modifications to the content selection logic. - just wanted to enjoy some novels offline with my fancy TTS setup.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**Current Compatibility**: This tool has been specifically developed and tested for one certain website where "lite" reading material exists in this "novel world" of ours 😉. While it works flawlessly there, using it elsewhere will in most cases require modifications to the content selection logic.
 
 **Need help?** You have options:
 
 1. Modify the content selectors yourself using the code comments below
 2. Open an issue on GitHub - if I have time between reading chapters 📚, I might help adapt it
 
-### For Developers
+## For Developers
 
 If you want to adapt this for a different site, you'll need to modify these parts in `LightNovelScraper.py`:
 
@@ -54,10 +38,8 @@ If you want to adapt this for a different site, you'll need to modify these part
 python LightNovelScraper.py --debug  # See all processing details
 ```
 
-Edit `_clean_html_content()` to modify content cleaning or `_process_content()` to change how special content (notes, footnotes) is handled.
 
 **Please Note**: This is a hobby project created for legitimate use cases, such as:
-
 - Using advanced Text-to-Speech solutions for personal audio enjoyment
 - Reading offline during your commute
 
