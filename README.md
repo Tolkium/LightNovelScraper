@@ -38,10 +38,9 @@ If you want to adapt this for a different site, you'll need to modify these part
 python LightNovelScraper.py --debug  # See all processing details
 ```
 
-
 **Please Note**: This is a hobby project created for legitimate use cases, such as:
+
 - Using advanced Text-to-Speech solutions for personal audio enjoyment
-- Reading offline during your commute
 
 This is NOT a tool for commercial purposes or content redistribution. <span style="color: red; font-size: 1.2em">**Support the original content creators**</span> by visiting their sites and, if possible, purchasing official releases. Think of this as a personal format converter for your offline reading convenience.
 
